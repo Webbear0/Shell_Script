@@ -2,7 +2,6 @@
 # 功能:LAMP一键安装脚本
 # 编写日期:2023/03/17
 # 编写者:俺
-
 echo "LAMP一键安装脚本"
 while true 
 do 
@@ -11,7 +10,7 @@ do
 输入2安装MariaDB
 输入3安装phpmyadmin
 输入4安装WordPress
-
+输入5安装Discuz
 EOF
 	read -p '请输入序号,取消运行输入其他字符' input
 	case $input in 
