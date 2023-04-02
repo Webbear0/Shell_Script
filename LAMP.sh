@@ -11,7 +11,7 @@ do
 输入2安装MariaDB
 输入3安装phpmyadmin
 输入4安装WordPress
-
+输入5安装Discuz
 EOF
 	read -p '请输入序号,取消运行输入其他字符' input
 	case $input in 
